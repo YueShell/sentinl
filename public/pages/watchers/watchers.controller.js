@@ -6,7 +6,7 @@ import ace from 'ace';
 
 // WATCHERS CONTROLLER
 function  WatchersController($rootScope, $scope, $route, $interval,
-  $timeout, timefilter, Private, createNotifier, $window, $http, $uibModal, $log, navMenu,
+  $timeout, timefilter, Private, createNotifier, $window, $http, $log, navMenu,
   globalNavState, $location, dataTransfer, Watcher, Script, Promise, COMMON, confirmModal) {
   'ngInject';
 

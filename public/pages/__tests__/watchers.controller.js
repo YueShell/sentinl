@@ -66,7 +66,6 @@ describe('watchersController', function () {
       $controller('WatchersController', {
         $scope,
         $route,
-        $uibModal: {}
       });
 
       $scope.$apply();

@@ -38,7 +38,6 @@ describe('Alarms Controller', function () {
       $controller('AlarmsController', {
         $scope,
         $route,
-        $uibModal: {}
       });
       $scope.$digest();
       $httpBackend.flush();

@@ -2,7 +2,7 @@ import { get, isNumber } from 'lodash';
 import moment from 'moment';
 
 function ReportsController($rootScope, $scope, $route, $interval,
-  $timeout, timefilter, Private, createNotifier, $window, $uibModal, navMenu, globalNavState, Report, COMMON, $log, confirmModal) {
+  $timeout, timefilter, Private, createNotifier, $window, navMenu, globalNavState, Report, COMMON, $log, confirmModal) {
   'ngInject';
 
   $scope.title = COMMON.reports.title;

@@ -38,7 +38,6 @@ describe('Reports Controller', function () {
       $controller('ReportsController', {
         $scope,
         $route,
-        $uibModal: {}
       });
       $scope.$digest();
       $httpBackend.flush();

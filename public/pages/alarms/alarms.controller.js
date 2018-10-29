@@ -3,7 +3,7 @@ import moment from 'moment';
 import uiChrome from 'ui/chrome';
 
 function AlarmsController($rootScope, $scope, $route, $interval,
-  $timeout, $injector, timefilter, Private, createNotifier, $window, $uibModal, navMenu,
+  $timeout, $injector, timefilter, Private, createNotifier, $window, navMenu,
   globalNavState, Alarm, COMMON, $log, confirmModal) {
   'ngInject';
 

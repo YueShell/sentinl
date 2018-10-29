@@ -94,7 +94,6 @@ describe('editorController', function () {
         $controller('EditorController', {
           $scope,
           $route,
-          $uibModal: {}
         });
 
         $httpBackend.flush();
@@ -231,7 +230,6 @@ describe('editorController', function () {
         $controller('EditorController', {
           $scope,
           $route,
-          $uibModal: {}
         });
 
       });
